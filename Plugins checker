@@ -1,0 +1,12 @@
+import os
+
+# Replace 'path/to/plugins/directory' with the actual path to the plugins directory
+plugins_directory = 'path/to/plugins/directory'
+
+# List all files in the plugins directory
+plugins = os.listdir(plugins_directory)
+
+# Print the list of plugins
+print("Installed plugins:")
+for plugin in plugins:
+    print(plugin)
